@@ -1,0 +1,59 @@
+1- Menu de opções:
+
+    1 - Estacionar um carro
+
+    2 - Retirar um carro
+
+    3 - Mostrar todas as vagas
+
+    4 - Sair do programa
+
+2- Informações que serão armazenadas:
+
+    Placa do carro (texto)
+
+    Status da vaga (livre ou ocupada)
+
+3- Organização das informações:
+
+    Usar um vetor de structs.
+
+    Cada struct terá:
+
+        char placa[10];
+
+        int ocupado; (0 = livre, 1 = ocupado)
+
+4- Funcionamento de cada opção do menu:
+
+    Opção 1 (Estacionar):
+
+        Procurar a primeira vaga livre.
+
+        Pedir a placa do carro.
+
+        Armazenar a placa na vaga e marcar como ocupada.
+
+    Opção 2 (Retirar):
+
+        Pedir a placa do carro.
+
+        Procurar a placa no vetor de vagas.
+
+        Se encontrar, liberar a vaga (marcar como livre).
+
+    Opção 3 (Mostrar vagas):
+
+        Exibir o estado de todas as vagas (livre ou ocupada, junto da placa se ocupada).
+
+    Opção 4 (Sair):
+
+        Encerrar o programa.
+
+5- Controle de repetição:
+
+    Usar um do-while para manter o menu aparecendo até o usuário escolher sair.
+
+6- Busca nas vagas:
+
+    Usar for para percorrer o vetor de vagas sempre que precisar procurar ou mostrar informações.
